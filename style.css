@@ -224,4 +224,35 @@ button:hover {
   background: red;
 }
 
+/* Contact */
+.contact {
+  background: #171717;
+}
 
+.contact .section-title {
+  color: #fff;
+}
+
+input[type=text], textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* Footer */
+
+footer {
+  margin: 0;
+  background: #242424;
+  bottom: 0;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+}
