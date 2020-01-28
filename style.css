@@ -29,10 +29,11 @@ section {
 .splash {
   height: 100vh;
   position: relative;
-  background-image: url('https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-image: url('https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?cs=srgb&dl=apple-laptop-notebook-office-39284.jpg&fm=jpg');
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
+  opacity: 0.8;
 }
 
 .splash-inner {
@@ -45,7 +46,7 @@ section {
 
 .splash i {
   font-size: 30px;
-  background: orange;
+  background: red;
   width: 60px;
   height: 60px;
   line-height: 60px;
@@ -54,9 +55,10 @@ section {
 }
 
 .page-title {
-  color: orange;
+  color: black;
   font-size: 60px;
   margin: 48px 0 0 0;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 .page-title::after {
@@ -67,11 +69,27 @@ section {
   width: 100px;
   height: 10px;
   transform: translateX(-50%);
-  background: orange;
+  background: red;
 }
 
 .page-subtitle {
-  color: orange;
+  color: black;
   font-size: 18px;
   margin: 48px 0 0 0;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+/* Intro */
+
+.intro {
+  background: whitesmoke;
+}
+
+.intro p {
+  width: 70%;
+  margin: 0 auto;
+  padding: 48px 0;
+  font-size: 24px;
+  border-top: 1px solid #3d3d3d;
+  border-bottom: 1px solid #3d3d3d;
 }
