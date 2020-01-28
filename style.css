@@ -1,5 +1,3 @@
-
-
 /* Global */
 *, *::before, *::after {
 	box-sizing: border-box;
@@ -161,7 +159,6 @@ section {
   text-align: left;
 }
 
-
 /* Gallery */
 
 .item-gallery {
@@ -225,6 +222,7 @@ button:hover {
 }
 
 /* Contact */
+
 .contact {
   background: #171717;
 }
